@@ -20,3 +20,17 @@ if (size == 0)
 {
     Console.WriteLine ("Нет элементов больше 3");
 }  
+else
+{
+    string[] finalArray = new string[size];
+    int j = 0;
+    for (int i = 0; i < arr.Length; i++)
+    {
+        if (arr[i].Length <= length)
+        {
+            finalArray[j] = arr[i];
+        j++;
+        }
+    }
+
+}
