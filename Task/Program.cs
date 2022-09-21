@@ -18,8 +18,9 @@ for (int i = 0; i < arr.Length; i++)
     }
 if (size == 0)
 {
-    Console.WriteLine ("Нет элементов больше 3"); 
+    Console.WriteLine ("Нет элементов больше 3"); // проверили есть ли вообще нужные элементы
 }  
+// если элементы есть, то наполним наш новый массив
 else
 {
     string[] finalArray = new string[size];
