@@ -18,7 +18,7 @@ for (int i = 0; i < arr.Length; i++)
     }
 if (size == 0)
 {
-    Console.WriteLine ("Нет элементов больше 3");
+    Console.WriteLine ("Нет элементов больше 3"); 
 }  
 else
 {
@@ -32,5 +32,6 @@ else
         j++;
         }
     }
-
+Console.WriteLine("Наш новый массив:");
+Console.WriteLine($"[{String.Join("; ", finalArray)}]");
 }
